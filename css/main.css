@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    ;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a {
+    font-size: 14px;
+}
+
+
+/* header start */
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.479)), url("../imgs/header.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
+.header-text p,
+.meet-text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+   
+}
+
+.header-text h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 30px 0;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+}
+
+.header-text p::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #c59a6d;
+    margin: 30px auto;
+}
+
+nav.menu i {
+    position: absolute;
+    left: 0px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header-icon i,
+.meet-icon i,
+.service-icon i {
+    border: 1px solid #c59a6d;
+    padding: 4px 10px;
+    font-size: 24px;
+    transition: 300ms all;
+    cursor: pointer;
+    color: #c59a6d;
+}
+
+.header-icon i:hover,
+.meet-icon i:hover,
+.service-icon i:hover {
+    background-color: #c59a6d;
+    color: #fff;
+}
+
+#meet,
+#service {
+    padding: 90px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.meet,
+.service {
+    text-align: center;
+    width: 56%;
+    margin: auto;
+  
+    
+}
+
+.meet-text h2::after,
+.service-text h2::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #c59a6d;
+    margin: 30px auto;
+}
+
+.meet-text p,
+.service-text p {
+    width: 66%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+/* video start */
+
+#video {
+    background: linear-gradient(rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.07)), url("../imgs/videothump.jpg") no-repeat center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.video i {
+    font-size: 36px;
+    color: #fff;
+    transition: 200ms all;
+    cursor: pointer;
+}
+
+.video i:hover {
+    font-size: 48px;
+}
+
+
+/* services*/
+/*
+.servicebox {
+    border: 1.5px solid #8e9297;
+    padding: 40px 10px;
+  
+    width: 250px;
+    height: 320px;
+    
+    color:#8e9297;
+    text-align: center;
+}*/
+
+.servicebox h1 {
+    padding: 30px;
+    font-size: 20px;
+}
+
+.servicebox p {
+    margin-top: -10px;
+    font-size: 18px;
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+}
+.servicebox i{
+    padding: 4px 10px;
+    font-size: 44px;
+    transition: 300ms all;
+    cursor: pointer;
+   
+}
+
+
+.servicebox.golden p {
+    margin-top: -10px;
+    font-size: 18px;
+    width: 100%;
+    line-height: 1.5;
+}
+.servicebox.golden i{
+    padding-top: 40px ;
+    font-size: 44px;
+    transition: 300ms all;
+    cursor: pointer;
+    color:#c59a6d; 
+}
+
+.serviceboxcontainer {
+    width:calc(100% - 100px);
+    margin:0 auto!important;
+    display:flex;
+
+}
+
+.servicebox{
+    flex:1;
+    flex-shrink: 1;
+    border:1.5px solid #8e9297;
+    padding:40px 10px;
+    gap:12px;
+    
+    width: 250px;
+    height: 320px;
+    margin-left:20px;
+    color:#8e9297;
+    text-align: center;
+}
+
+
+
+.servicebox.golden {
+    border: 0.1rem solid #c59a6d;
+    padding-top:45px;
+    width: 30%;
+    height: 400px;
+    margin-top:-40px;
+    
+    color:#111111;
+    text-align: center;
+
+}
+
+.servicebox.golden h1 {
+    padding: 30px;
+    font-size: 20px;
+    color:#c59a6d;
+}
+/*
+.serviceboxcontainer
+{
+    display: flex;
+    flex-direction: row;
+    margin:0 auto;
+    width:900px;
+    align-items: center;
+    justify-content: center;
+}
+
+*/
