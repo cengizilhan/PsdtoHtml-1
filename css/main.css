@@ -312,23 +312,23 @@ nav.menu i {
 }
 
 .showroomIMG:nth-child(1) {
-    background-image: url("/imgs/1.jpg");
+    background-image: url("../imgs/1.jpg");
 }
 
 .showroomIMG:nth-child(2) {
-    background-image: url("/imgs/2.jpg");
+    background-image: url("../imgs/2.jpg");
 }
 
 .showroomIMG:nth-child(3) {
-    background-image: url("/imgs/3.jpg");
+    background-image: url("../imgs/3.jpg");
 }
 
 .showroomIMG:nth-child(4) {
-    background-image: url("/imgs/4.jpg");
+    background-image: url("../imgs/4.jpg");
 }
 
 .showroomIMG:nth-child(5) {
-    background-image: url("/imgs/5.jpg");
+    background-image: url("../imgs/5.jpg");
 }
 
 .showroomIMG h1 {
@@ -371,8 +371,10 @@ nav.menu i {
     color: white;
 }
 
-.showroomIMG:hover p,
-h1 {
+.showroomIMG:hover p{
+    display: block;
+}
+.showroomIMG:hover h1{
     display: block;
 }
 
