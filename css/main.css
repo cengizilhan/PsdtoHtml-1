@@ -448,12 +448,13 @@ nav.menu i {
  width: 900px;
  justify-content: center;
  margin:0 auto;
- 
+
 }
 .PartnerLogo{
     padding: 0;
     width: 191px;
     height: 102px;
+
 }
 .PartnerLogo:nth-child(1) {
     background-image: url("../imgs/1adidas.png");
@@ -468,3 +469,196 @@ nav.menu i {
     background-image: url("../imgs/4microsoft.png");
  }
 
+ /*aboutus*/
+ #AboutUs
+ {
+    margin-top:100px;
+    
+ }
+#AboutUs h2{
+    text-align: center;
+    
+}
+#AboutUs p{
+    text-align: center;
+    line-height: 30px;
+    margin-bottom:100px;
+}
+.CrewContainer{
+    display:flex;
+    flex-direction: row;
+}
+.CrewMemberBox{
+    width: 25%;
+    height:400px;
+    border: 1px solid #d8d9da;
+    margin:0 15px;
+}
+.CrewMemberBox:hover{
+    border: 1px solid #111111;
+}
+.goldenline{
+   
+    content: "";
+ 
+    width: 90px;
+    height: 2px;
+    background-color: #c59a6d;
+    margin: 30px auto;
+    
+    margin-top:118px;
+  
+  }
+
+  
+.MemberPic
+{
+    
+    width: 150px;
+    height: 150px;
+ 
+    border-radius: 50%;
+    background-size: cover;
+    background-blend-mode: saturation;
+    margin:auto;
+    margin-top:70px;
+    margin-bottom:20px;
+    transition: 300ms;
+    
+}
+
+.MemberPic.second {
+    background-image:
+    url("../imgs/team1_cebraililhan.jpg");
+    -webkit-filter: grayscale(90%);
+  
+}
+.MemberPic.thirt{
+    background-image: 
+    url("../imgs/team2_cebraililhan.jpg");
+    -webkit-filter: grayscale(90%);
+    
+}
+.MemberPic.Fourth{
+    background-image: 
+    url("../imgs/team3_cebraililhan.jpg");
+    -webkit-filter: grayscale(90%);
+}
+.MemberPic h1{
+    font-size:20px;
+    color:grey;
+    font-weight: 600;
+    padding-top:190px;
+    text-align: center;
+    }
+.MemberPic p{
+    font-size:20px;
+    color:grey;
+    font-weight: 500;
+    padding-top:10px;
+    text-align: center;
+    }
+
+
+.CrewMemberBox:hover h1 {
+        color:black;
+ }
+    
+ .CrewMemberBox:hover p {
+    color:black;
+}
+
+.CrewMemberBox:nth-child(4)
+{
+    border-color: #c59a6d;
+    width: 200px;
+    color: #c59a6d;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.hiringH1{
+    margin-top:100px;
+    font-size:25px;
+}
+.CrewMemberBox h2{
+    font-size:80px;
+    font-weight: lighter;
+}
+.CrewMemberBox .hiring:hover{
+    color:#c59a6d !important;
+}
+
+.DownContainer.team{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+
+.contactheader{
+    width: 100%;
+    height:500px;
+    background-image: url("../imgs/laptop.jpg");
+    background-position: top;
+    background-position-y: 0px;
+    background-size: cover;
+}
+.contactheader h1{
+    font-size:40px;
+    color:white;
+    margin:auto;
+    text-align: center;
+    padding-top:100px;
+}
+.contactheader .goldenline{
+    margin-top:50px;
+}
+.contactheader p{
+    margin-top:50px;
+    text-align: center;
+    color:white;
+    font-size:25px;
+    font-weight: lighter;
+}
+.footer{
+    height:1000px;
+    width: 100%;
+    background-color:#282f35;
+    display: flex;
+}
+.footerdiv{
+    border: 3px solid #00ff00;
+    color:white;
+    font-size:15px;
+    font-weight: 100px;
+    letter-spacing: 2px;
+    
+}
+
+.footerdiv p{ 
+margin-top:10px;
+    font-size:18px;
+line-height: 40px;
+color:White;
+}
+.footerdiv:nth-child(1){
+ width: 500px;
+}
+.footerdiv:nth-child(2){
+ 
+    width: calc(100% - 500px);
+    
+}
+.adress{
+    margin-top:400px;
+    
+}
+.logoscontainer i{
+    margin-top:40px;
+    font-size:25px;
+    font-weight: lighter;
+
+}
+.copyright
+{margin-top:380px;
+ 
+}
