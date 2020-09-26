@@ -626,17 +626,19 @@ nav.menu i {
     display: flex;
 }
 .footerdiv{
-    border: 3px solid #00ff00;
+    border-bottom: 3px solid #c59a6d ;
     color:white;
     font-size:15px;
     font-weight: 100px;
     letter-spacing: 2px;
+    padding-left:50px;
+
     
 }
 
 .footerdiv p{ 
 margin-top:10px;
-    font-size:18px;
+    font-size:15px;
 line-height: 40px;
 color:White;
 }
@@ -649,7 +651,7 @@ color:White;
     
 }
 .adress{
-    margin-top:400px;
+    margin-top:270px
     
 }
 .logoscontainer i{
@@ -662,3 +664,76 @@ color:White;
 {margin-top:380px;
  
 }
+
+.contactcus h1{
+    color:white;
+    font-size:26px;
+    margin-top:100px;
+    margin-left:133px;
+    
+}
+.contactcus .goldenline{
+    margin-top:40px;
+    margin-left:185px;
+}
+.webformcontainer{
+    width: 600px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:80px;
+}
+.formelement{
+    
+   
+}
+.textbox{
+    
+    width: 200px;
+    height:30px;
+    margin:16px;
+    flex: 1 1 160px;
+    background-color:#1e2429;
+    color:#a8a9aa;
+
+}
+.textarea
+{background-color:#1e2429;
+    width:432px;
+    height:100px;
+    margin:16px;
+    color:#a8a9aa;
+    padding: 0.4em 0.4em 0.4em 0;
+    resize: none;
+   
+}
+
+
+textarea:focus, input:focus{
+   outline: none;
+    border-top: 1px solid #c59a6d ;
+}
+::-webkit-input-placeholder
+{line-height: 1.5em;}
+::placeholder {
+   color:#a8a9aa;
+   margin-top:-5px;
+   padding-left: 1px;
+  }
+
+  .sendbutton{
+      width:100px;
+      height:30px;
+      background-color: #c59a6d;
+      color:white;
+      margin-left:346px;
+      text-align: center;
+      line-height: 30px;
+  }
+  .backToTop
+  {
+    margin-left:310px;
+    margin-top:288px;
+  }
+  .backToTop i{
+      color:#c59a6d;
+  }
