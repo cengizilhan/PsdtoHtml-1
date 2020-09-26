@@ -52,7 +52,6 @@ header {
     font-size: 18px;
     font-weight: 500;
     line-height: 36px;
-   
 }
 
 .header-text h1 {
@@ -74,15 +73,37 @@ header {
     margin: 30px auto;
 }
 
+
+
 nav.menu i {
     position: absolute;
     left: 0px;
     font-size: 16px;
     color: #fff;
     cursor: pointer;
+    margin-left: 10%;
 }
 
-.header-icon i,
+.clearboth {
+    clear: both;
+}
+
+.service-icon {
+    width: 40px;
+    align-items: center;
+    margin: auto;
+    clear: both;
+    margin-bottom: 100px;
+    padding-left: 15px;
+}
+
+.service-icon i {
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.service-icon i,
 .meet-icon i,
 .service-icon i {
     border: 1px solid #c59a6d;
@@ -107,14 +128,11 @@ nav.menu i {
     justify-content: center;
 }
 
-
 .meet,
 .service {
     text-align: center;
     width: 56%;
     margin: auto;
-  
-    
 }
 
 .meet-text h2::after,
@@ -160,6 +178,8 @@ nav.menu i {
 
 
 /* services*/
+
+
 /*
 .servicebox {
     border: 1.5px solid #8e9297;
@@ -184,14 +204,13 @@ nav.menu i {
     line-height: 1.5;
     text-align: center;
 }
-.servicebox i{
+
+.servicebox i {
     padding: 4px 10px;
     font-size: 44px;
     transition: 300ms all;
     cursor: pointer;
-   
 }
-
 
 .servicebox.golden p {
     margin-top: -10px;
@@ -199,63 +218,165 @@ nav.menu i {
     width: 100%;
     line-height: 1.5;
 }
-.servicebox.golden i{
-    padding-top: 40px ;
+
+.servicebox.golden i {
+    padding-top: 40px;
     font-size: 44px;
     transition: 300ms all;
     cursor: pointer;
-    color:#c59a6d; 
+    color: #c59a6d;
 }
 
 .serviceboxcontainer {
-    width:calc(100% - 100px);
-    margin:0 auto!important;
-    display:flex;
-
+    /*width: calc(100% - 100px); */
+    width: 800px;
+    margin: 0 auto!important;
+    display: flex;
 }
 
-.servicebox{
-    flex:1;
+.servicebox {
+    flex: 1;
     flex-shrink: 1;
-    border:1.5px solid #8e9297;
-    padding:40px 10px;
-    gap:12px;
-    
-    width: 250px;
+    border: 1.5px solid #8e9297;
+    padding: 40px 10px;
+    gap: 12px;
+    width: 20px !important;
     height: 320px;
-    margin-left:20px;
-    color:#8e9297;
+    margin-left: 20px;
+    color: #8e9297;
     text-align: center;
 }
-
-
 
 .servicebox.golden {
     border: 0.1rem solid #c59a6d;
-    padding-top:45px;
+    padding-top: 45px;
     width: 30%;
     height: 400px;
-    margin-top:-40px;
-    
-    color:#111111;
+    margin-top: -40px;
+    color: #111111;
     text-align: center;
-
 }
 
 .servicebox.golden h1 {
     padding: 30px;
     font-size: 20px;
-    color:#c59a6d;
-}
-/*
-.serviceboxcontainer
-{
-    display: flex;
-    flex-direction: row;
-    margin:0 auto;
-    width:900px;
-    align-items: center;
-    justify-content: center;
+    color: #c59a6d;
 }
 
-*/
+
+/* check our shop */
+
+.OurShopBanner {
+    height: 140px;
+    background-color: #282f35;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.CheckOurShop {
+    border: 1px solid #c59a6d;
+    height: 40px;
+    width: 200px;
+    margin: auto;
+}
+
+.CheckOurShop p {
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    line-height: 36px;
+    justify-content: center;
+    text-align: center;
+}
+
+.empty {
+    clear: both;
+    margin-bottom: 100px;
+}
+
+.showroom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* center items horizontally, in this case */
+}
+
+.showroomIMG {
+    padding: 0;
+    width: 360px;
+    height: 360px;
+}
+
+.showroomIMG:nth-child(1) {
+    background-image: url("/imgs/1.jpg");
+}
+
+.showroomIMG:nth-child(2) {
+    background-image: url("/imgs/2.jpg");
+}
+
+.showroomIMG:nth-child(3) {
+    background-image: url("/imgs/3.jpg");
+}
+
+.showroomIMG:nth-child(4) {
+    background-image: url("/imgs/4.jpg");
+}
+
+.showroomIMG:nth-child(5) {
+    background-image: url("/imgs/5.jpg");
+}
+
+.showroomIMG h1 {
+    color: white;
+    font-weight: 400;
+    font-size: large;
+    display: none;
+    transition: 300ms;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40%;
+}
+
+.showroomIMG p {
+    color: #c59a6d;
+    font-weight: 600;
+    display: none;
+    transition: 300ms;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.showroomIMG p::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #c59a6d;
+    margin: 30px auto;
+}
+
+.showroomIMG:hover {
+    background-image: url('');
+    background-color: #282f35;
+    transition: 300ms;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.showroomIMG:hover p,
+h1 {
+    display: block;
+}
+
+
+/*
+    content: "<p>asdas</p>";
+    */
